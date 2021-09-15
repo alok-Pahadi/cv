@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap');
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', serif;
+}
+h1{
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #66BFBF;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    text-decoration: none;
+}
+.bottom-container a{
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    color: white;
+}
+a:hover{
+    color: blueviolet;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.profile img{
+    border-radius: 50%;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+.pro{
+    text-decoration: underline;
+}
+.intro{
+    width: 50%;
+    margin: auto;
+}
+.copyright{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.top-cloud{
+    position: absolute;
+    right: 20vw;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 18vw;
+    bottom: 300px;
+}
+.btn{
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background: #11cdd4;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.projects{
+    background-color:#EAF6F6;
+    padding: 50px 20px 10px 20px;
+}
+.projects img{
+    width: 80vw;
+    border-radius: 8px;
+}
+.project-info{
+    margin: 4em auto;
+    max-width: 90%;
+    border-radius: 20px;
+    background: #66BFBF;
+    padding: 2rem 1rem;
+    display: flex;
+}
+.project-info_col{
+    width: 50%;
+    padding: 0 .5em;
+}
+.project-info_col h6{
+    color: #232320;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+} 
+.project-info_col ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #656270;
+    font-size: 18px;
+    line-height: 150%;
+}
+.project-info_col ul a{
+    color: #656270;
+}
+.project-info_col ul a:hover{
+    color: white;
+}

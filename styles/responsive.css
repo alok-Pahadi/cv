@@ -1,0 +1,7 @@
+@media (min-width: 992px){
+.project-info {
+    max-width: 50em;
+    padding: 4rem;
+    margin: 7em auto 7.5em;
+}
+}
